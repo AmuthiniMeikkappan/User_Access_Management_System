@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Font family */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Pending request container styling */
+.pendingrequest-container {
+    max-width: 800px; /* Maximum width of the container */
+    margin: 120px auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    background-color: white; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Heading styling */
+h3 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker text color */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+/* Table header styling */
+th {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text color */
+    padding: 10px; /* Padding inside header cells */
+    text-align: left; /* Align text to the left */
+}
+
+/* Table data cell styling */
+td {
+    padding: 10px; /* Padding inside data cells */
+    border: 1px solid #ddd; /* Light gray border for data cells */
+}
+
+/* Button styling */
+.btn {
+    display: inline-block; /* Inline block display */
+    padding: 5px 10px; /* Padding inside the button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    text-decoration: none; /* No underline */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* No requests message styling */
+.no-requests {
+    text-align: center; /* Center the message */
+    font-size: 18px; /* Font size */
+    color: #999; /* Gray color */
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    .pendingrequest-container {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+
+    h3 {
+        font-size: 24px; /* Smaller font size for heading */
+    }
+
+    td, th {
+        font-size: 14px; /* Smaller font size for table cells */
+    }
+
+    .btn {
+        font-size: 14px; /* Smaller font size for button */
+    }
+}
